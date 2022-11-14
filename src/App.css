@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.farmer {
+  width: 50vw;
+  height: 60vh;
+}
+
+.description {
+  width: 50vw;
+  height: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.container-2 {
+  height: 35vh;
+  background: #efede9ff;
+}
+
+.description p  {
+  text-align: left;
+  line-height: 30px;
+  width: 20vw;
+  font-size: 18px;
+  color: #282a35ff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.description h2 {
+  color: #3b7828ff;
+  font-size: 40px;
+}
+
+.subContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20vw;
+  /* margin-top: 30px; */
+}
+
+.image-cover {
+  background-image: url('/public/images/maize.webp');
+}
+
+.mainContainer h1 {
+  background: #3b7828ff;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-4 {
+  width: 20vw;
+}
+
+.container-4 h2 {
+  color: #3b7828ff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.container-4 p {
+  color: #282a35ff;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+.section {
+  background: #3b7828ff;
+  height: 20vh;
+  text-align: center;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.section p {
+  font-size: 18px;
+}
+
+.section .paragraph {
+  font-size: 30px;
+}
